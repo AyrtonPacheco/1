@@ -1,0 +1,8 @@
+algo = input('Digite algo: ')
+print(f'O tipo Primitivo do valor: {algo} é', (type(algo)))
+print(f'{algo} é uma letra?', (algo.isalpha()))
+print(f'{algo} é um número?', (algo.isnumeric()))
+print(f'{algo} é imprimivel?', (algo.isprintable()))
+print(f'{algo} é um digito?', (algo.isdigit()))
+print(f'{algo} está em CAPSLOCK?', (algo.isupper()))
+print(f'{algo} é identificável?', (algo.isidentifier()))
